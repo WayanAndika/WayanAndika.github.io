@@ -1,0 +1,12 @@
+body{
+    font-family: 'XD-PRIME',sans-serif;
+}
+
+.card-live{
+    color: white;
+}
+
+@font-face {
+    font-family: 'XD-PRIME'; 
+    src: url('../fonts/XDPRIME-REGULAR.OTF') format('opentype'); 
+}

@@ -1,0 +1,41 @@
+{
+    "kelas": [
+      {
+        "nama_mata_kuliah": "Pemrograman Berorientasi Objek",
+        "waktu": {
+          "mulai": "08:00",
+          "selesai": "10:00"
+        },
+        "tempat": "Ruang 301 - Gedung A",
+        "nama_dosen": "Dr. Andi Saputra"
+      },
+      {
+        "nama_mata_kuliah": "Algoritma dan Struktur Data",
+        "waktu": {
+          "mulai": "10:15",
+          "selesai": "12:15"
+        },
+        "tempat": "Ruang 102 - Gedung B",
+        "nama_dosen": "Prof. Budi Santoso"
+      },
+      {
+        "nama_mata_kuliah": "Sistem Basis Data",
+        "waktu": {
+          "mulai": "13:00",
+          "selesai": "15:00"
+        },
+        "tempat": "Ruang 204 - Gedung C",
+        "nama_dosen": "Dr. Citra Lestari"
+      },
+      {
+        "nama_mata_kuliah": "Jaringan Komputer",
+        "waktu": {
+          "mulai": "15:15",
+          "selesai": "17:15"
+        },
+        "tempat": "Lab Jaringan - Gedung D",
+        "nama_dosen": "Ir. Dedi Gunawan"
+      }
+    ]
+  }
+  
