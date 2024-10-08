@@ -1,0 +1,46 @@
+{
+  "kelas": [
+    {
+      "id": 1,
+      "nama_mata_kuliah": "Pemrograman Berorientasi Objek",
+      "waktu": {
+        "mulai": "08:00",
+        "selesai": "10:00"
+      },
+      "tempat": "Ruang 301",
+      "nama_dosen": "Dr. Andi Saputra",
+      "materi": {
+        "pertemuan": 1,
+        "ringkasan_materi": "Pada pertemuan ini, dibahas konsep dasar Pemrograman Berorientasi Objek (OOP) seperti objek dan kelas. Materi ini mencakup prinsip utama OOP: encapsulation (pembungkusan data dan fungsi dalam satu entitas), inheritance (pewarisan properti dan fungsi dari satu kelas ke kelas lainnya), dan polymorphism (kemampuan objek untuk mengambil berbagai bentuk). Selain itu, kita juga mempelajari implementasi dasar OOP dalam bahasa pemrograman Java, mulai dari pembuatan kelas hingga penerapan inheritance dan polymorphism dalam situasi nyata. Contoh-contoh praktis diberikan untuk menunjukkan bagaimana OOP memfasilitasi desain sistem perangkat lunak yang lebih modular, mudah diperbarui, dan scalable."
+      }
+    },
+    {
+      "id": 2,
+      "nama_mata_kuliah": "Algoritma dan Struktur Data",
+      "waktu": {
+        "mulai": "10:15",
+        "selesai": "12:15"
+      },
+      "tempat": "Ruang 102",
+      "nama_dosen": "Prof. Budi Santoso",
+      "materi": {
+        "pertemuan": 1,
+        "ringkasan_materi": "Materi pertemuan pertama mencakup pengenalan tentang algoritma dan struktur data, dua elemen fundamental dalam ilmu komputer. Kami mendiskusikan bagaimana algoritma merupakan serangkaian langkah untuk menyelesaikan masalah, serta pentingnya efisiensi waktu dan ruang dalam algoritma. Selain itu, struktur data linear seperti array, linked list, stack, dan queue juga dibahas secara mendalam. Setiap struktur data ini dijelaskan bersama contoh penggunaannya di dunia nyata, serta bagaimana mereka dapat digunakan untuk mengelola data secara efisien. Pemahaman dasar tentang cara menyusun dan mengakses data ini menjadi landasan penting dalam pemrograman yang lebih kompleks di masa depan. Contoh implementasi dalam C++ dan Python juga disertakan untuk memperjelas konsep-konsep yang dibahas, termasuk analisis kompleksitas waktu dari setiap algoritma dan struktur data tersebut."
+      }
+    },
+    {
+      "id": 3,
+      "nama_mata_kuliah": "Sistem Basis Data",
+      "waktu": {
+        "mulai": "13:00",
+        "selesai": "15:00"
+      },
+      "tempat": "Ruang 204",
+      "nama_dosen": "Dr. Citra Lestari",
+      "materi": {
+        "pertemuan": 1,
+        "ringkasan_materi": "Pertemuan ini memberikan pengenalan terhadap konsep-konsep dasar dalam sistem basis data. Diskusi dimulai dengan pentingnya penyimpanan data yang terstruktur dalam suatu organisasi dan bagaimana basis data dapat membantu dalam manajemen data tersebut. Konsep model relasional dan entitas-relationship (ER) diuraikan secara detail, menjelaskan bagaimana relasi antar tabel bisa merepresentasikan hubungan antar entitas di dunia nyata. Selain itu, pengantar SQL (Structured Query Language) disajikan sebagai alat untuk berinteraksi dengan basis data, mencakup perintah dasar seperti SELECT, INSERT, UPDATE, dan DELETE. Kami juga membahas pentingnya normalisasi untuk mengurangi redundansi dan meningkatkan efisiensi penyimpanan data. Studi kasus digunakan untuk menunjukkan bagaimana database digunakan dalam aplikasi dunia nyata seperti sistem manajemen inventaris dan aplikasi web berbasis data."
+      }
+    }
+  ]
+}
