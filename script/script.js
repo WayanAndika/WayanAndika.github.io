@@ -6,9 +6,7 @@ fetch('../data/kelas.json')
     let firstClass = {};
     let secondClass = {};
     let thirdClass = {};
-    const notif=document.querySelector('.notif');
-    notif.textContent=data.kelas.length
-    
+
     data.kelas.forEach(kelas => {
         
         if(kelas.id===1){
@@ -18,8 +16,11 @@ fetch('../data/kelas.json')
         }else{
           thirdClass=kelas
         }
-    });
 
+        // Notifications
+      const notif=document.querySelector('.notif');
+      notif.innerHTML=data.kelas.length
+    });
     const todayClass=document.createElement('div');
     todayClass.classList.add('grid','grid-cols-2','justify-between','gap-4','w-96', 'lg:w-full','mt-3','today-class');
     const first=`
@@ -295,6 +296,9 @@ fetch('../data/kelas.json')
         `
       }
     });
+
+
+    // Notifikasi
     
 
   })
