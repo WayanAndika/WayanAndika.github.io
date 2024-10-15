@@ -1,7 +1,7 @@
 fetch('../data/kelas.json')
   .then(response => response.json())
   .then(data => {
-    const listMateri = document.querySelector('.list-materi'); // Pastikan class 'list-materi' ada di HTML Anda
+    const listMateri = document.querySelector('.list-materi'); 
     data.kelas.forEach((kelas, index) => {
       // Notifikasi
       const containerMateri = document.createElement('div');
