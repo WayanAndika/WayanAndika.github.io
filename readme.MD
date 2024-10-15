@@ -37,7 +37,7 @@ You can simply open the `index.html` file in your browser after downloading or c
 
 ## Components of the Website
 ### 1. Navbar Component
-![Navbar Images](image.png)
+![Navbar Images](./images/documentation/image-1.png)
 
 ```html
 <nav class="bg-white border-gray-200 dark:bg-gray-900 fixed w-full top-0 z-50">
@@ -57,7 +57,7 @@ This component build with \<nav> element with posisition is fixed, so when the p
 And this element have \<div> as the child element, display of this element is flex, with the ``` justify-content:space-between```, it makes the space of the element \<a> at the left with the element \<div> at the right will always same in desktop mode or mobile mode.
 
 ### 2. Card Component
-![Card Component](image-1.png)
+![Card Component](./images/documentation/image-2.png)
 ```html
 <div class="card bg-base-100 image-full w-96 shadow-xl mx-auto mt-24">
   <figure>
@@ -71,7 +71,7 @@ And this element have \<div> as the child element, display of this element is fl
 
 This component is build with \<div> element, with the children are \<figure> for the image and \<div> for the content
 ### 3. Class-Card Component
-![Class-Card Component](image-2.png)
+![Class-Card Component](./images/documentation/image-3.png)
 
 ```html
 <div class="grid justify-center my-9 container-class">
@@ -99,7 +99,7 @@ containerClass.appendChild(todayClass);
 
 And for the card will append with Javascript in [script.js](./script/script.js)
 ### 4. Form Login Component
-![Form Login Component](image-3.png)
+![Form Login Component](./images/documentation/image-4.png)
 
 ```html
 <div class="mx-auto mt-24">
@@ -114,7 +114,7 @@ And for the card will append with Javascript in [script.js](./script/script.js)
 
 This component is basic form login, because it is just for simple front-end project, so for the action and method is default. And when user click login button, it will redirect to homepage with \<a> element.
 ### 5. List-Notification Component
-![List-Notification Component](image-5.png)
+![List-Notification Component](./images/documentation/image-5.png)
 
 ```html
 <div class="mt-24 m-5">
