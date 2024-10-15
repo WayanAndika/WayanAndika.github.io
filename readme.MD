@@ -97,7 +97,7 @@ todayClass.innerHTML=`
 containerClass.appendChild(todayClass);
 ```
 
-And for the card will append with Javascript in [script.js](./script/script.js)
+And for the card will append with Javascript in [script.js](./script/script.js). And how's the javascript works is : first; we fetch the json and then we loop the data. And then get the parent element, that we will change the innerHTML. And then we create a const for create a new element, and then we give the class, and then we change the innerHTML of the parent element with new elements.
 ### 4. Form Login Component
 ![Form Login Component](./images/documentation/image-4.png)
 
